@@ -1,0 +1,18 @@
+name: imaging_course_public_day4_2024
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9.*
+  - numpy==1.26.4
+  - pandas==2.2.1
+  - conda-forge::zeroc-ice==3.6.5
+  - conda-forge::ipywidgets==8.0.4
+  - pip
+  - pip:
+    - jupyter==1.0.0
+    - intermine==1.13.0
+    - omero-py==5.19.1
+    - matplotlib==3.8.4
+    - scikit-image==0.22.0
