@@ -16,7 +16,7 @@ Activate it:
 source /path/to/new/virtual/environment/bin/activate
 ```
 
-Install packages into the VM
+Install packages into the ``venv``
 ```
-pip install ....
+pip install $PACKAGE_NAME
 ```
